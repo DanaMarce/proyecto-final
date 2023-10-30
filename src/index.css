@@ -1,0 +1,211 @@
+.imagen_fondo{
+  background-image: url(./components/img/41664052-doctor-con-el-fondo-médico.jpg);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+}
+
+.fondo_formulario {
+  height: 90vh;
+  width: 25%; 
+  color: rgb(31, 70, 36);
+  border-radius: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  display: block; 
+  margin: 0; 
+  padding: 0;
+}
+
+.login-contenido´{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  justify-content: center;
+ align-items: center;
+
+}
+
+.fondo_formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-contenido {
+  text-align: center; 
+  padding: 20px;
+  border: 1px solid #ccc; 
+  background-color: #fff;
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+
+.inicio {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+
+input {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+  margin: 5px 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/*-------------------------------Registro-------------------------------------*/
+.cotenedor-registro{
+  background-image: url(./components/img/41664052-doctor-con-el-fondo-médico.jpg);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(12, 12, 12); 
+
+}
+
+.registro-form {
+  height: 90vh;
+  width: 25%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.registro-form h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.registro-form input {
+  width: 80%;
+  padding: 8px;
+  margin: 7px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registro-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.registro-form button:hover {
+  background-color: #0056b3;
+}
+
+/*+++++++++++++++++++++++cita*******************************************/
+.contenedor-superior{
+  background-image: url(./components/img/41664052-doctor-con-el-fondo-médico.jpg);
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black
+  
+}
+
+
+.cita-container {
+  height: 90vh;
+  width: 25%;
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+ justify-content: center;
+  padding: 0px;
+  border: 1px solid #ccc; 
+  background-color: #fff;
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  display: flex;
+}
+
+.logocita{
+  width: 40;
+  height: 40%;
+  display: block; 
+ 
+}
+
+.cita-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  justify-content: flex-end;
+  width: 200px;
+  height: 25px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.btn-reservar {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn-reservar:hover {
+  background-color: #0056b3;
+}
